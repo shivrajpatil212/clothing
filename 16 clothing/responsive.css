@@ -1,0 +1,57 @@
+@media only screen and (max-width:575px){
+    .navbar {
+        position: absolute;
+        left: 25px;
+        top: 12px;
+        /* float: left; */
+        margin-top: -12px;
+    }
+    .nav{
+        display: none;
+    }
+
+    .banner .carousel-caption h2 {
+        font-size: 36px;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    .product_item img {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    /* .about_sixteen {
+        margin-top: 10px;
+    } */
+
+    .about_sixteen .filled-button {
+        margin-top: 10px;
+    }
+    .about_image img {
+        width: 100%;
+        overflow: hidden;
+        margin-top: 25px;
+    }
+    .about_heading{
+        text-align: center;
+    }
+    .about_content{
+        text-align: center;
+    }
+    /* .about_content .filled-button {
+        text-align: center;
+        width: 100%;
+        margin-top: 20px;
+    } */
+
+    .creative .creative_content {
+        text-align: center;
+    }
+    .creative .creative_content .filled-button {
+        text-align: center;
+        width: 100%;
+        margin-top: 20px;
+    }
+}
